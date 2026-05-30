@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Merriweather:wght@700&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
 </head>
 <body>
     <header>
@@ -26,14 +22,13 @@
                 <div class="links">
                     <a href="https://github.com/Yorking6" target="_blank" class="button">🐱 GitHub</a>
                     <a href="files/Personal_CV.pdf" target="_blank" class="button">📄 Resume</a>
-                    <a href="files/undergraduate transcript.pdf" target="_blank" class="button">📝 Undergraduate Transcript</a>
                 </div>
             </div>
             <div class="carousel-container">
-                <img src="images/photo2.jpg" class="carousel-image active" alt="Siyuan Li Photo 2">
-                <img src="images/photo3.jpg" class="carousel-image" alt="Siyuan Li Photo 3">
-                <!-- <img src="images/photo1.jpg" class="carousel-image" alt="Siyuan Li Photo 1"> -->
-                <img src="images/photo4.png" class="carousel-image" alt="Siyuan Li Photo 4">
+                <img src="images/photo1.jpg" class="carousel-image" alt="Photo 1">
+                <img src="images/photo2.jpg" class="carousel-image active" alt="Photo 2">
+                <img src="images/photo3.jpg" class="carousel-image" alt="Photo 3">                
+                <img src="images/photo4.jpg" class="carousel-image" alt="Photo 4">
                 <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
                 <a class="next" onclick="changeSlide(1)">&#10095;</a>
             </div>
@@ -57,20 +52,6 @@
             document.getElementById('theme-toggle').textContent = isDark ? '🌞' : '🌛';
         });
     </script>
-    
-    <!-- <section class="intro">
-        <div class="container">
-            <p>
-                I am Siyuan Li, a Ph.D. student in Computer Science at the <a href="https://uga.edu" target="_blank">University of Georgia</a>, advised by Prof. <a href="https://scholar.google.com/citations?user=92RPXm0AAAAJ" target="_blank">Tianming Liu</a>, a distinguished researcher in medical AI and LLMs. I am also a visiting Ph.D. student at the <a href="https://camca.mgh.harvard.edu/" target="_blank">CAMCA Laboratory</a> at Harvard Medical School and Massachusetts General Hospital, working with Prof. <a href="https://xiangli-shaun.github.io/" target="_blank">Xiang Li</a>. I earned my Bachelor's degree in Artificial Intelligence from <a href="https://www.shu.edu.cn/" target="_blank">Shanghai University</a>, graduating first in my major. I prefer to explore, learn, and create things from scratch, rather than relying solely on pre-made solutions. For instance, I built this webpage myself (with an Easter egg 🐣), and it has received <a href="https://github.com/liaoyanqing666/liaoyanqing666.github.io" target="_blank"><img src="https://img.shields.io/github/stars/liaoyanqing666/liaoyanqing666.github.io" alt="Stars"/></a> <a href="https://github.com/liaoyanqing666/liaoyanqing666.github.io" target="_blank"><img src="https://img.shields.io/github/forks/liaoyanqing666/liaoyanqing666.github.io" alt="Forks"/></a>.
-            </p>
-            <p>
-                As an intern at the <a href="https://en.westlake.edu.cn/" target="_blank">AI for Scientific Simulation and Discovery Lab</a> at <a href="https://ai4s.lab.westlake.edu.cn/" target="_blank">Westlake University</a>, I led an exploratory project on AI-driven physical law discovery under the mentorship of <a href="https://tailin.org/" target="_blank">Prof. Tailin Wu</a>. Within my university, I have participated in research projects under <a href="https://yuhang.netlify.app/" target="_blank">Prof. Hang Yu</a> and in the Brain-like Computing Center led by <a href="https://www.dlcloud.info/" target="_blank">Prof. Huiran Zhang</a>. For my undergraduate thesis, I designed and implemented a medical question-answering system incorporating multimodal RAG components, and fine-tuned multimodal models with medical data. Previously, under the guidance of <a href="https://cswhjiang.github.io/" target="_blank">Dr. Wenhao Jiang</a>, I worked on enhancing the complex reasoning capabilities of medical large language models.
-            </p>
-            <p>
-                My research interests are primarily focused on model architecture and algorithmic innovation. Currently, my specific areas of interest are (Multimodal) LLMs and AI for Medicine, with a particular focus on models' deep reasoning capabilities. I am dedicated to acquiring knowledge from diverse subfields to expand my expertise and exploring the possibilities of bridging existing knowledge with new domains.
-            </p>
-        </div>
-    </section> -->
 
     <section class="intro">
     <div class="container">
@@ -86,199 +67,133 @@
     </div>
 </section>
 
-    <main>
-        <div class="container">
-            <section>
-                <h2>🎓 Education</h2>
-                <div class="education-item">
-                    <div class="education-header">
-                        <div class="details">
-                            <h3>University of Georgia (UGA)</h3>
-                            <p>Ph.D. Student in Computer Science (<a href="https://computing.uga.edu/">School of Computing</a>)</p>
-                            <p class="date">08/2025 (Deferred to 01/2026) - 06/2030</p>
-                        </div>
-                        <div class="education-info">
-                            <p><strong>Supervisor:</strong> <a href="https://scholar.google.com/citations?user=92RPXm0AAAAJ" target="_blank">Prof. Tianming Liu</a></p>
-                        </div>
+<main>
+    <div class="container">
+        <section>
+            <h2>🎓 Education</h2>
+            
+            <div class="education-item">
+                <div class="education-header">
+                    <div class="details">
+                        <h3>University of Nottingham Ningbo China (QS #97)</h3>
+                        <p>B.Eng. in Architectural Environment Engineering</p>
+                        <p class="date">09/2024 - 07/2028</p>
+                    </div>
+                    <div class="education-info">
+                        <p><strong>Supervisor:</strong> <a href="https://research.nottingham.edu.cn/en/persons/zhiang-zhang/" target="_blank">Dr. Zhiang Zhang</a></p>
+                        <p><strong>Ranking:</strong> Top 1%</p>
                     </div>
                 </div>
-                
-                <div class="education-item">
-                    <div class="education-header">
-                        <div class="details">
-                            <h3>Harvard University</h3>
-                            <p>Visiting Ph.D. Student (<a href="https://www.massgeneral.org/">Harvard Medical School and Massachusetts General Hospital</a>)</p>
-                            <p class="date">05/2026 - 05/2027</p>
-                        </div>
-                        <div class="education-info">
-                            <p><strong>Supervisor:</strong> <a href="https://xiangli-shaun.github.io/" target="_blank">Prof. Xiang Li</a></p>
-                            <p><strong>Research Area:</strong> AI/LLM for Medicine.</a></p>
-                        </div>
+                <div class="education-introduction">
+                    <p><b>Research Focus</b>: Physics-based dynamic modeling (Modelica), advanced control algorithms (MPC), and AI-driven building energy optimization.</p>
+                </div>
+            </div>
+            
+            <div class="education-item">
+                <div class="education-header">
+                    <div class="details">
+                        <h3>Tsinghua University - Technical University of Munich</h3>
+                        <p>Winter School Program in Smart Sustainable Cities and Energy</p>
+                        <p class="date">11/2025 - 12/2025</p>
+                    </div>
+                    <div class="education-info">
+                        <p><strong>Location:</strong> Beijing, China</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="education-item">
-                    <div class="education-header">
-                        <div class="details">
-                            <h3>Shanghai University (SHU)</h3>
-                            <p>B.E. in Artificial Intelligence (<a href="https://cs.shu.edu.cn/">School of Computer Engineering and Science</a>)</p>
-                            <p class="date">09/2021 - 06/2025</p>
-                        </div>
-                        <div class="education-info">
-                            <p><strong>GPA:</strong> 3.81/4.0 (93.60/100)</p>
-                            <p><strong>Ranking:</strong> 1/52 (1/31 in class)</p>
-                        </div>
+            <div class="education-item">
+                <div class="education-header">
+                    <div class="details">
+                        <h3>Shanghai Jiao Tong University</h3>
+                        <p>Summer School Program in Net-Zero Carbon Fuels</p>
+                        <p class="date">06/2025 - 07/2025</p>
                     </div>
-                    <div class="education-introduction">
-                        <p><b>Key Courses</b>: Calculus (94), Linear Algebra (100), Object-Oriented Programming (94), Probability and Statistics (95), Data Structures (97), Pattern Recognition (90), Computer Vision (91), Operations and Optimization (88), Data Mining and Knowledge Processing (94), Mathematical Logic (95), Principles and Techniques of LLMs (95), Principles and Algorithms of AI (93)</p>
+                    <div class="education-info">
+                        <p><strong>Location:</strong> Shanghai, China</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section>
-                <h2>🔬 Research/Work Experience</h2>
-                <div class="experience-item">
-                    <div class="details-with-logo">
-                        <h3>
-                            <img src="images/HMS&MGH.png" alt="Harvard Medical School and Massachusetts General Hospital" class="logo">
-                            Research Intern at Harvard Medical School and Massachusetts General Hospital
-                        </h3>
-                        <p>Medical Multimodal Large Language Models</p>
-                        <p>Advisor: Prof. Xiang Li</p>
-                        <p class="date">05/2026 - 05/2027</p>
-                    </div>
+<section>
+    <h2>🔬 Research & Work Experience</h2>
 
-                    <div class="content">
-                        <ul>
-                            <li>Built a MIMIC-based benchmark for medical multi-step reasoning, covering clinical decision-making tasks across multiple stages to support more rigorous evaluation and improvement of medical large language models' complex reasoning capabilities.</li>
-                        </ul>
-                    </div>
-                </div>
+    <div class="experience-item">
+        <div class="details-with-logo">
+            <h3>
+                <img src="images/green_carbon.png" alt="Green Carbon Intelligence" class="logo">
+                Energy Management System Developer at Green Carbon Intelligence
+            </h3>
+            <p>SaaS Platform powered by Deep Learning & Digital Twin</p>
+            <p class="date">09/2025 - Present</p>
+        </div>
+        <div class="content">
+            <ul>
+                <li><strong>System Development & Algorithm Optimization:</strong> Deeply involved in the R&D of an energy and carbon management system powered by deep learning and digital twin technologies; optimized energy dispatching algorithm logic to enhance the SaaS platform's intelligent responsiveness across diverse scenarios. The system has been successfully deployed by over 10 large-scale manufacturing clients, driving an average annual carbon reduction of 22% and an energy efficiency improvement of 18%.</li>
+                <li><strong>Energy Auditing & ESG Consulting:</strong> Led or participated in 6 energy auditing and carbon emission accounting projects; conducted greenhouse gas (GHG) inventories based on the GHG Protocol and ISO 14064 standards; established energy consumption baselines and identified critical nodes for energy saving, providing core data support for clients' energy efficiency assessments and ESG disclosures.</li>
+                <li><strong>Industry Insights & Deep Research Reports:</strong> Continuously tracked macro policies, cutting-edge technologies (such as carbon capture and green power trading), and market competitive dynamics in the energy and carbon management sector; compiled 12 industry research reports to deliver strategic recommendations for product iteration and market expansion.</li>
+            </ul>
+        </div>
+    </div>
 
-                <div class="experience-item">
-                    <div class="details-with-logo">
-                        <h3>
-                            <img src="images/EZCollegeApp.png" alt="Harvard Medical School and Massachusetts General Hospital" class="logo">
-                            Machine Learning Engineer at GyriQAI
-                        </h3>
-                        <p>Company info: Startup in AI for Education</p>
-                        <p><a href="https://ezcollegeapp.com/" target="_blank">Product Website: EZCollegeApp</a></p>
-                        <p class="date">03/2026 - now</p>
-                    </div>
+    <div class="experience-item">
+        <div class="details-with-logo">
+            <h3>
+                <img src="images/ccid.png" alt="CCID Consulting" class="logo">
+                New Energy Economics Consulting Specialist at CCID Consulting
+            </h3>
+            <p>State-Owned Enterprise under MIIT</p>
+            <p class="date">06/2025 - 09/2025</p>
+        </div>
+        <div class="content">
+            <ul>
+                <li><strong>Market Sizing & Industrial Research:</strong> Focused on the new energy and intelligent equipment sectors, leading the authorship of 12 market sizing and industrial thematic studies; utilized top-down analysis to quantitatively evaluate market spaces, supply chain value distribution, and industry growth drivers.</li>
+                <li><strong>In-Depth Research Report Writing:</strong> Contributed to the formulation of 8 mid-year industrial research reports; conducted comprehensive reviews of macro policy shifts, technological iteration paths, and corporate case studies to provide think-tank support for government decision-making.</li>
+                <li><strong>Database Construction & End-to-End Management:</strong> Managed the underlying maintenance of the energy and intelligent equipment database, collecting, cleaning, and validating over 20,000 data points; established data indexing standards through logical verification and dimensionality reduction.</li>
+            </ul>
+        </div>
+    </div>
 
-                    <div class="content">
-                        <ul>
-                            <li>Developed a multi-step agent to collect publicly available high-school football coach information from web sources.</li>
-                            <li>Collected publicly available Instagram data and built a reasoning agent to identify potential users.</li>
-                            <li>Performed reasoning and search over public information from potential users, linking multiple accounts belonging to the same individual to construct richer user profiles.</li>
-                        </ul>
-                    </div>
-                </div>
+    <div class="experience-item">
+        <div class="details-with-logo">
+            <h3>
+                <img src="images/nottingham.png" alt="University of Nottingham Ningbo China" class="logo">
+                Research: AI-driven Optimization of Energy Systems
+            </h3>
+            <p>Focus: Physics-based Dynamic Modeling (Modelica) & Advanced Control Algorithms (MPC)</p>
+            <p>Advisor: <a href="https://research.nottingham.edu.cn/en/persons/zhiang-zhang/" target="_blank">Dr. Zhiang Zhang</a></p>
+            <p class="date">07/2025 - Present</p>
+        </div>
+        <div class="content">
+            <ul>
+                <li><strong>Dynamic System Modeling:</strong> Developed and calibrated a comprehensive, high-fidelity dynamic model of a complex district thermal energy system to accurately simulate transient behavior and predict future states.</li>
+                <li><strong>Advanced Control Implementation:</strong> Designed and deployed a data-driven optimization framework leveraging Model Predictive Control (MPC) and Machine Learning (ML) predictors for optimal energy management.</li>
+                <li><strong>Efficiency Enhancement:</strong> Successfully executed dynamic optimization strategies to minimize operational costs and maximize energy efficiency, demonstrating an improvement of 15% in system performance.</li>
+                <li><strong>Research Output:</strong> Authored a peer-reviewed quality manuscript detailing the novel methodology and empirical results.</li>
+            </ul>
+        </div>
+    </div>
 
-                <div class="experience-item">
-                    <div class="details-with-logo">
-                        <h3>
-                            <img src="images/GML.png" alt="Guangming Lab" class="logo">
-                            Research Intern at Guangming Laboratory
-                        </h3>
-                        <p>Medical Large Language Models with Complex Reasoning Capabilities</p>
-                        <p>Lab full name: Guangming Laboratory (Guangdong Artificial Intelligence and Digital Economy Laboratory, Shenzhen)</p>
-                        <p>Advisor: Dr. Wenhao Jiang</p>
-                        <p>Project Undisclosed</p>
-                        <p class="date">09/2025 - 01/2026</p>
-                    </div>
+    <div class="experience-item">
+        <div class="details-with-logo">
+            <h3>
+                <img src="images/nottingham.png" alt="University of Nottingham Ningbo China" class="logo">
+                Research: Model-based Optimal Control of Industrial Energy Systems
+            </h3>
+            <p><strong>Focus:</strong> Data-driven and Physics-based Modelling of Integrated Energy Systems</p>
+            <p class="date">03/2025 - 06/2025</p>
+        </div>
+        <div class="content">
+            <ul>
+                <li>Conducted an extensive literature review on data-driven and physics-based modelling of integrated energy systems, with a focus on energy-efficient control frameworks and related methodologies.</li>
+                <li>Assisted with industrial data mining, energy system modeling using Modelica, and applied Python for data analysis, dynamic modelling, and forecasting to support control optimization strategies.</li>
+                <li>Completed a review paper on the development of dynamic carbon emission factors and generated data mining insights on the relationship between renewable energy system capacity thresholds and environmental variables.</li>
+            </ul>
+        </div>
+    </div>
 
-                    <div class="content">
-                        <ul>
-                            <li>Constructed a high-quality medical Instruction Tuning dataset by performing in-depth cleaning and structuring of large-scale private clinical records, and designing diverse QA templates to ensure comprehensive data coverage.</li>
-                            <li>Developed a fully automated Supervised Fine-Tuning (SFT) pipeline, streamlining the end-to-end workflow from heterogeneous data loading and dynamic prompt construction to efficient model training.</li>
-                            <li>Proposed an answer-guided self-distillation mechanism to generate Chain-of-Thought (CoT) reasoning based on correct answers. Incorporating these rationales into SFT guided the model to adopt optimal reasoning paths, significantly enhancing logical reasoning and accuracy in complex medical scenarios.</li>
-                            <li>Applied Reinforcement Learning for continuous policy optimization, further reinforcing the model's multi-step reasoning abilities and improving the accuracy of clinical decision-making.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="details-with-logo">
-                        <h3>
-                            <img src="images/Huawei.png" alt="Huawei" class="logo">
-                            AI Intern (NLP Focus) at Huawei
-                        </h3>
-                        <p>Location: Huawei Lianqiu Lake R&D Center, Shanghai</p>
-                        <p>Department: Ascend Computing Inference Development</p>
-                        <p><a href="https://github.com/vllm-project/vllm-ascend">Project Website</a></p>
-                        <p class="date">12/2024 - 03/2025</p>
-                    </div>
-
-                    <div class="content">
-                        <ul>
-                            <li>Contributed to the vLLM open-source community by identifying a bug (<a href="https://github.com/vllm-project/vllm/issues/11978">Issue #11978</a>) and submitting a fix that was merged into the main branch (<a href="https://github.com/vllm-project/vllm/pull/11979">PR #11979</a>).</li>
-                            <li>Migrated vLLM to the Ascend NPU platform (<a href="https://github.com/vllm-project/vllm-ascend">vllm-ascend</a>), responsible for unit testing and operator adaptation.</li>
-                            <li>Adapted speculative decoding on vllm-ascend.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="details-with-logo">
-                        <h3>
-                            <img src="images/SHU_BLCC.png" alt="SHU_BLCC" class="logo">
-                            SHU Brain-like Computing Center
-                        </h3>
-                        <p>AI for Recognizing Preference</p>
-                        <p>Advisor: Prof. Huiran Zhang (Shanghai University)</p>
-                        <p>Project Undisclosed</p>
-                        <p class="date">04/2024 - 09/2024</p>
-                    </div>
-
-                    <div class="content">
-                        <ul>
-                            <li>Proposed a novel ERP composite formula for analyzing human preferences.</li>
-                            <li>Achieved effective classification of preferences using AI methods combined with the developed formula.</li>
-                            <li>Authored a paper as the first author, available on <a href="https://arxiv.org/abs/2505.19879">arXiv</a>.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="details-with-logo">
-                        <h3>
-                            <img src="images/WestlakeU.png" alt="WestlakeU" class="logo">
-                            Research Intern at Westlake University
-                        </h3>
-                        <p>Rule Discovery in Physical Data/Video</p>
-                        <p>Advisor: Prof. Tailin Wu (Westlake University), Prof. Sebastian Musslick (Brown University)</p>
-                        <p>Project Undisclosed</p>
-                        <p class="date">07/2023 - 06/2024</p>
-                    </div>
-                    <div class="content">
-                        <ul>
-                            <li>Developed a transformer-based model and programmed experiments for symbolic regression tasks.</li>
-                            <li>Extended symbolic regression from mathematical expressions to the video domain by building a multimodal model.</li>
-                            <li>Explored the discovery of physical system patterns from videos to empower scientific discovery tasks.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="details-with-logo">
-                        <h3>
-                            <img src="images/SHU.png" alt="Shanghai University" class="logo">
-                            Research at Shanghai University
-                        </h3>
-                        <p>Video Frame Interpolation with PVT</p>
-                        <p>Advisor: Prof. Hang Yu (Shanghai University)</p>
-                        <p><a href="https://github.com/liaoyanqing666/PVT_v2_video_frame_interpolation">Project Website</a></p>
-                        <p class="date">04/2023 - 06/2023</p>
-                    </div>
-                    <div class="content">
-                        <ul>
-                            <li>Proposed a novel encoder-decoder video frame interpolation model leveraging PVT v2 as the encoder and a UNet-like decoder with deconvolution and residual concatenation.</li>
-                            <li>Achieved an SSIM of 0.9879 on the Vimeo90K Dataset, surpassing state-of-the-art methods.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+</section>
 
             <section>
                 <h2>💻 Projects (Selected by Learning Path)</h2>
